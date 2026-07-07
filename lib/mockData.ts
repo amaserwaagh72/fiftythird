@@ -366,5 +366,203 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0003',
+    firstName: 'Reuben',
+    lastName: 'Susan',
+    email: 'r**@gmail.com',
+    username: 'Reuben$101',
+    password: 'Greatness25',
+    transactionCode: '7894',
+    createdAt: '2026-7-7',
+    transactionMsg: 'Please visit the nearest Fifth third bank with your documentation to verify and unlock the restriction on your account.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '2345678901',
+        balance: 2709133.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Transfer from Torunlargyo Company',
+            category: '****6432',
+            date: 'Jul 03, 2026',
+            amount: 1709133,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from John Matthews',
+            category: '****4389',
+            date: 'Apr 07, 2026',
+            amount: 83200,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Amazon Services LLC',
+            category: '****1663',
+            date: 'Mar 30, 2026',
+            amount: 52800,
+            status: 'success'
+          },
+          {
+            merchant: 'Uber',
+            category: '****2625',
+            date: 'Mar 28, 2026',
+            amount: -2450,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Sarah Thompson',
+            category: '****3667',
+            date: 'Mar 16, 2026',
+            amount: 56300,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Michel Den Co.',
+            category: '****2535',
+            date: 'Mar 03, 2026',
+            amount: 66300,
+            status: 'success'
+          },
+          {
+            merchant: 'Starbucks - Food & Drink',
+            category: '****9037',
+            date: 'Feb 26, 2026',
+            amount: -860,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Daniel Roberts',
+            category: '****7543',
+            date: 'Feb 15, 2026',
+            amount: 60700,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Celia Construction',
+            category: '****3774',
+            date: 'Feb 02, 2026',
+            amount: 82000,
+            status: 'success'
+          },
+          {
+            merchant: 'Amazon Online Purchase',
+            category: '****8746',
+            date: 'Jan 20, 2026',
+            amount: -7320,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Emily Johnson',
+            category: '****3667',
+            date: 'Jan 17, 2026',
+            amount: 62400,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Vesla Oil Station',
+            category: '****4654',
+            date: 'Jan 02, 2026',
+            amount: 65600,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Michael Brown',
+            category: '****8213',
+            date: 'Dec 19, 2025',
+            amount: 46300,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Shella Mushey',
+            category: '****9124',
+            date: 'Dec 05, 2025',
+            amount: 89900,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Olivia Martinez',
+            category: '****3478',
+            date: 'Nov 21, 2025',
+            amount: 96300,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from George William',
+            category: '****5682',
+            date: 'Nov 07, 2025',
+            amount: 74600,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from David Wilson',
+            category: '****7741',
+            date: 'Oct 24, 2025',
+            amount: 91300,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Michael Davs',
+            category: '****2298',
+            date: 'Oct 10, 2025',
+            amount: 72300,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Sophia Anderson',
+            category: '****6812',
+            date: 'Sep 25, 2025',
+            amount: -188300,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Timothy Auto Inc.',
+            category: '****9034',
+            date: 'Sep 13, 2025',
+            amount: -214400,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Robert Collins',
+            category: '****1147',
+            date: 'Sep 04, 2025',
+            amount: -157800,
+            status: 'success'
+          },
+          {
+            merchant: 'Skargard Marine',
+            category: '****1049',
+            date: 'Jun 08, 2025',
+            amount: -7900,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456789746',
+        cardHolder: 'ALEXA COLLINS',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        balance: 1652000.0,
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];

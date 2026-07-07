@@ -49,7 +49,7 @@ export type Bank = z.infer<typeof BankSchema>;
 
 // Login schema
 export const LoginSchema = z.object({
-  username: z.string().min(1, "Username is required"),
+  username: z.string().min(1, "UserID is required"),
   password: z.string().min(1, "Password is required"),
 });
 

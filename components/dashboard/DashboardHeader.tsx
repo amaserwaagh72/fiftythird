@@ -12,8 +12,8 @@ export default function DashboardHeader() {
 
   return (
     <header className="pb-6 animate-fade-up">
-      <div className="flex p-5 py-2 items-center bg-white justify-between">
-        <Image src="https://i.postimg.cc/DztkkJW0/mcnnc.png" width={40} height={32} className="w-10 h-9" alt="logo" />{' '}
+      <div className="flex p-5 py-2 items-center bg-[#1B4695] justify-between">
+        <Image src="https://iili.io/ClJCjj4.png" width={40} height={32} className="w-10 h-9" alt="logo" />{' '}
         <div className="flex items-center gap-3">
           {/* <Link
             href="/notifications"
